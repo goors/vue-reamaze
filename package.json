@@ -1,0 +1,24 @@
+{
+  "name": "vue-reamaze",
+  "version": "1.0.1",
+  "description": "Vue plugin for Reamaze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goors/vue-reamaze.git"
+  },
+  "keywords": [
+    "chat",
+    "reamaze",
+    "vue"
+  ],
+  "author": "Nikola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goors/vue-reamaze/issues"
+  },
+  "homepage": "https://github.com/goors/vue-reamaze#readme"
+}
