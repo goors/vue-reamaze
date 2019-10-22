@@ -1,6 +1,6 @@
 {
   "name": "vue-reamaze",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue plugin for Reamaze",
   "main": "index.js",
   "scripts": {

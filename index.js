@@ -20,15 +20,17 @@ const init = (config) => {
     );
     window._support["account"] = config.appId;
     window._support["ui"] = {};
-    window._support["ui"]["contactMode"] = "traditional";
+    window._support["ui"]["contactMode"] = config.contactMode ? config.contactMode : "traditional";
+    window._support['ui']['faces'] = config.faces ? config.faces: [];
     window._support["ui"]["enableKb"] = "true";
+
     window._support["ui"]["styles"] = {
         widgetColor: config.color
     };
     window._support["ui"]["widget"] = {
         img: config.img,
         size: config.size,
-        label: false,
+        label: config.label ? config.label : false,
         position: config.position
     };
     window._support["apps"] = {
